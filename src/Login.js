@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://192.168.101.2:92/api/login', {
+      const response = await fetch('https://192.168.101.2:92/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
